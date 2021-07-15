@@ -1,2 +1,2 @@
-Scientists at the CERN laboratory say they have discovered a new particle.
-If this is that, then what are those.
+Proste zdanie, bez polskich znakuw.
+Synteza mowy to dział przetwarzania mowy polegający na mechanicznej zamianie tekstu zapisanego w postaci znakowej na wypowiedź w postaci dźwiękowej. Maszynę lub program komputerowy zamieniający tekst na mowę określa się mianem syntezatora mowy. W zależności od syntezatora, możemy uzyskać bardzo dokładną wymowę także słów nietypowych, literowanie różnych skrótów, odczytywanie liczb w tym również ułamków oraz odczytywanie dat poprzez dekomponowanie liczb. Syntezatory mowy mają wiele zastosowań.
