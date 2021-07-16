@@ -33,6 +33,6 @@ vad_max_silence_length: 12
 vad_sample_rate: 16000
 
 # TOKENIZER
-phoneme_language: 'pl-pl'
+phoneme_language: 'pl'
 with_stress: True                   # use stress symbols in phonemization
 model_breathing: false           # add a token for the initial breathing

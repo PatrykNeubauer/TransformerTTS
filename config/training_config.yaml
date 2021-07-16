@@ -1,9 +1,9 @@
 paths:
   # PATHS: change accordingly
-  wav_directory: '/path/to/wav_directory' # path to directory cointaining the wavs
-  metadata_path: '/path/to/metadata.csv'  # name of metadata file under wav_directory
-  log_directory: '/path/to/logs_directory'   # weights and logs are stored here
-  train_data_directory: 'transformer_tts_data'   # training data is stored here
+  wav_directory: '/workspace/VL/pneubauer/TransformerTTS/datasets/borewicz/wavs' # path to directory cointaining the wavs
+  metadata_path: '/workspace/VL/pneubauer/TransformerTTS/datasets/borewicz/metadata.csv'  # name of metadata file under wav_directory
+  log_directory: '/workspace/VL/pneubauer/TransformerTTS/outputs/logs'   # weights and logs are stored here
+  train_data_directory: '/workspace/VL/pneubauer/TransformerTTS/output/logs/training_data'   # training data is stored here
 
 naming:
   data_name: ljspeech # raw data naming for default data reader (select function from data/metadata_readers.py)
@@ -51,7 +51,7 @@ audio_settings:
 
 text_settings:
   # TOKENIZER
-  phoneme_language: 'pl-pl'
+  phoneme_language: 'pl'
   with_stress: True                  # use stress symbols in phonemization
   model_breathing: false           # add a token for the initial breathing
 
